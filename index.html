@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguinbg: '#E5E5E5',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="bg-penguinbg">
+    <header>
+        <section class="container mx-auto sm:flex justify-center items-center">
+            <div class="space-y-4 text-center sm:text-left">
+                <h1 class="text-4xl sm:text-6xl uppercase font-bold">
+                    <span class="text-yellow-400">Be The Penguin</span>
+                    <span class="block">Of Winter</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, enim dignissimos error et deserunt in nemo ullam quae quis placeat!</p>
+                <button class="btn bg-lime-600 py-2 px-5 uppercase font-semibold rounded-xl text-white"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg> Buy Now</button>
+            </div>
+            <div  class=""><img class="pt-8 w-2/3 sm:w-full mx-auto" src="./images/model.png" alt=""></div>
+        </section>
+    </header>
+
+    <main>
+      <!-- women jacket section  -->
+      <section class="women-section container mx-auto my-36">
+        <h1 class="text-5xl">Women Jacekets</h1>
+        <div class="grid grid-cols-3 gap-12">
+          <div class="card p-8 bg-white rounded hover:bg-red-400 ms-0">
+            <div class="flex justify-center"><img class="h-56" src="./images/jacket-1.png" alt=""></div>
+            <div class="card-body">
+              <div class="card-text">
+                <h1 class="text-3xl">Women Jacket</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum libero error nesciunt dolore ipsa.</P>
+              </div>
+            </div>
+            <div class="pricing-btn flex justify-between">
+              <h1 class="">500TK</h1>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <div class="card p-8 bg-white rounded hover:bg-red-400">
+            <div class="flex justify-center"><img class="h-56" src="./images/jacket-2.png" alt=""></div>
+            <div class="card-body">
+              <div class="card-text">
+                <h1 class="text-3xl">Women Jacket</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum libero error nesciunt dolore ipsa.</P>
+              </div>
+            </div>
+            <div class="pricing-btn flex justify-between">
+              <h1 class="">500TK</h1>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <div class="card p-8 bg-white rounded hover:bg-red-400">
+            <div class="flex justify-center bg-slate-200"><img class="h-56 bg-slate-200 p-4" src="./images/jacket-3.png" alt=""></div>
+            <div class="card-body">
+              <div class="card-text">
+                <h1 class="text-3xl">Women Jacket</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum libero error nesciunt dolore ipsa.</P>
+              </div>
+            </div>
+            <div class="pricing-btn flex justify-between">
+              <h1 class="">500TK</h1>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+</body>
+</html>
